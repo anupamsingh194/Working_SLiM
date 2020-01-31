@@ -1,0 +1,21 @@
+#step 1: on cluster: head node
+git clone https://github.com/MesserLab/SLiM.git
+
+# Step 2:
+mkdir mkdir build
+
+#Step 3:
+cd build
+
+#Step 4:
+cmake ../SLiM
+
+#Step 5:
+make slim
+
+#step 6:
+cd 
+cd local/bin/
+
+#step 7:
+ln -s /home/cmb-07/sn1/anupamsi/software/build/slim ./
