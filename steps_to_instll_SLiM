@@ -2,7 +2,7 @@
 git clone https://github.com/MesserLab/SLiM.git
 
 # Step 2:
-mkdir mkdir build
+mkdir build
 
 #Step 3:
 cd build
